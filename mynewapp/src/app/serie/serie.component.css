@@ -1,0 +1,12 @@
+.fondo{
+  background-color: rgba(18, 166, 188, 0.775);
+  padding: 10px;
+  height: 80px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.inicio{
+  max-width: 100%;
+  max-height: 100%;
+}

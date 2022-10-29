@@ -1,0 +1,25 @@
+<div class="container-fluid">
+<div class="row">
+  <div class="col-4 margen">
+    <table class="table table-striped">
+      <caption class="promS">Seasons average: {{promedio}}</caption>
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Channel</th>
+          <th scope="col">Seasons</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let s of series">
+          <td>{{s.id}}</td>
+          <td class="text-primary">{{s.name}}</td>
+          <td>{{s.channel}}</td>
+          <td>{{s.seasons}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
